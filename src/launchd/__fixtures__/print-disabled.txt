@@ -1,0 +1,24 @@
+
+	disabled services = {
+		"com.docker.helper" => enabled
+		"com.fortinet.fssoagent_launchagent" => enabled
+		"com.microsoft.teams2.agent" => enabled
+		"com.apple.ManagedClientAgent.enrollagent" => disabled
+		"com.google.keystone.system.agent" => enabled
+		"com.apple.Siri.agent" => enabled
+		"com.microsoft.update.agent" => enabled
+		"com.linguee.DeepLLauncher" => enabled
+		"com.microsoft.OneDriveLauncher" => enabled
+		"com.spotify.client.startuphelper" => enabled
+		"com.apple.FolderActionsDispatcher" => disabled
+		"J8RPQ294UB.com.skitch.SkitchHelper" => enabled
+		"com.fortinet.credential_store" => enabled
+		"com.fortinet.forticlient.ztagent" => enabled
+		"com.google.keystone.system.xpcservice" => enabled
+		"com.fortinet.fortitray" => enabled
+		"com.fortinet.fct_launcher" => enabled
+		"com.openai.chat-helper" => enabled
+		"com.apple.appleseed.seedusaged.postinstall" => disabled
+		"com.apple.ScriptMenuApp" => disabled
+		"com.microsoft.OneDriveMigrationLauncher" => disabled
+	}

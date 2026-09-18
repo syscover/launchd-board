@@ -1,0 +1,1 @@
+{"ProgramArguments":[],"Label":"com.microsoft.SyncReporter","RunAtLoad":false,"StartCalendarInterval":[{"Hour":15,"Minute":10}],"Program":"\/Applications\/OneDrive.app\/Contents\/SyncReporter.app\/Contents\/MacOS\/SyncReporter"}

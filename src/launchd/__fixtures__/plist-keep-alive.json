@@ -1,0 +1,1 @@
+{"ProcessType":"Interactive","KeepAlive":{"SuccessfulExit":false},"Label":"com.fortinet.credential_store","RunAtLoad":true,"ThrottleInterval":0,"Program":"\/Library\/Application Support\/Fortinet\/FortiClient\/bin\/CredentialStore"}

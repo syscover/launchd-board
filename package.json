@@ -1,0 +1,32 @@
+{
+  "name": "launchd-board",
+  "version": "0.1.0",
+  "description": "A read-only terminal UI that shows the real state of macOS launchd jobs across the loaded, disabled, and running dimensions.",
+  "type": "module",
+  "bin": {
+    "launchd-board": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsx src/index.tsx",
+    "build": "tsc && chmod +x dist/index.js",
+    "prepare": "npm run build",
+    "test": "FORCE_COLOR=3 node --import tsx --test \"src/**/*.test.ts\" \"src/**/*.test.tsx\""
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "ink": "7.1.1",
+    "react": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.5.1",
+    "@types/react": "19.3.0",
+    "ink-testing-library": "4.0.0",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2"
+  }
+}

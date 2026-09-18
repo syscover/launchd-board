@@ -1,0 +1,1 @@
+{"ProgramArguments":["\/opt\/homebrew\/opt\/dnsmasq\/sbin\/dnsmasq","--keep-in-foreground","-C","\/opt\/homebrew\/etc\/dnsmasq.conf","-7","\/opt\/homebrew\/etc\/dnsmasq.d,*.conf"],"KeepAlive":true,"Label":"homebrew.mxcl.dnsmasq","RunAtLoad":true,"LimitLoadToSessionType":["Aqua","Background","LoginWindow","StandardIO","System"]}
